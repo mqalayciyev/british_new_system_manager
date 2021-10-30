@@ -1,0 +1,129 @@
+.Btn32{
+    display: inline-flex;
+    margin: 1px;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+.btnTD{
+    width: 1rem;
+}
+.studyLabel{
+    width: 50px;
+    /* padding-left: 20px; */
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.btn.btn-info.active{
+    background-color: crimson!important;
+    border-color: crimson!important;
+
+}
+.dropdown-menu{
+    left: auto;
+    right: -30px;
+}
+.Dashed{
+    border-bottom: 1px dashed;
+    border-bottom-color: #007bff;
+}
+.Dashed:hover{
+    border-bottom: none;
+}
+::-webkit-file-upload-button {
+    outline: none;
+    color: #fff;
+    background-color: #007bff;
+    box-shadow: none;
+    cursor: pointer;
+    border: 1px solid #007bff;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s
+  }
+  ::-webkit-file-upload-button:hover,  ::-webkit-file-upload-button:active {
+    color: #fff;
+    background-color: #0062cc;
+    border-color: #005cbf;
+  }
+
+  .TypingArrowLeft{
+    position: absolute;
+    top: 15px;
+    left: -8px;
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+    border-right: 8px solid #20C997FF;
+  }
+  .TypingArrowRight{
+    position: absolute;
+    top: 15px;
+    left: auto;
+    right: -8px;
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+    border-right: none;
+    border-left: 8px solid #4aa9e9;
+  }
+
+#addQuestionModal{
+    z-index: 1000;
+    display: none;
+}
+.company_image{
+    position: relative;
+}
+.company_image .actions{
+    display: flex;
+    opacity: 0;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    justify-content: center;
+    align-items: center
+}
+.actions:hover{
+    opacity: 1;
+    transition: 0.4s opacity;
+}
+
+.profile_image{
+    position: relative;
+}
+.profile_image .actions{
+    display: flex;
+    opacity: 0;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    justify-content: center;
+    align-items: center
+}
+.actions:hover{
+    opacity: 1;
+    transition: 0.4s opacity;
+}
+
+.loading{
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    z-index: 99;
+}
+.loading span{
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid silver;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 25px;
+    border-radius: 5px;
+}
