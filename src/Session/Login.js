@@ -27,8 +27,6 @@ export default class Login extends Component {
         
         event.preventDefault();
 
-        
-
         var data = serialize($(event.target)[0], { hash: true })
 
         let response = await axios.post(`${process.env.REACT_APP_API_URL}/login`, data)
